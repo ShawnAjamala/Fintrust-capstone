@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="flex shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50"
+    >
+      <div class="flex flex-wrap items-center justify-between gap-5 w-full">
+        <!-- Logo -->
+        <a href="index.html" class="max-sm:hidden">
+          <img
+            src="images/Fintrust capital.png"
+            alt="FinTrust Capital"
+            class="w-16 h-16"
+          />
+        </a>
+        <a href="javascript:void(0)" class="hidden max-sm:block">
+          <img src="images/logo.jpg" alt="FinTrust Capital" class="w-9" />
+        </a>
+
+        <!-- Navigation bar -->
+        <div id="collapseMenu" class="max-lg:hidden lg:block">
+          <ul class="lg:flex gap-x-6">
+            <li>
+              <a
+                href="index.html"
+                class="hover:text-blue-900 text-black font-medium"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="services.html"
+                class="hover:text-blue-900 text-black font-medium"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="team.html"
+                class="hover:text-blue-900 text-black font-medium"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a
+                href="javascript:void(0)"
+                class="hover:text-blue-900 text-black font-medium"
+                >Insights</a
+              >
+            </li>
+            <li>
+              <a
+                href="javascript:void(0)"
+                class="hover:text-blue-900 text-black font-medium"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="javascript:void(0)"
+                class="hover:text-blue-900 text-black font-medium"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex space-x-4">
+          <button
+            class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-gray-900 border border-gray-400 bg-transparent hover:bg-blue-900 hover:text-white transition-all"
+          >
+            Login
+          </button>
+          <button
+            class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-white border border-black bg-blue-900 hover:bg-black transition-all"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </header>
+<section class="text-gray-600 body-font">
+  <div class="container">
+    <div class="flex flex-col text-center w-full ml-5">
+      <h1 class="text-2xl font-medium title-font text-blue-900 tracking-widest m-10">OUR TEAM</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
+        Meet the passionate individuals who power our vision.
+      </p>
+    </div>
+    <div class="flex flex-wrap -m-4 ml-8">
+
+      <!-- Member 1 -->
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover sm:mb-0 mb-4" src="images/team1.avif">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4 short-desc">Crafts intuitive financial dashboards with a focus on accessibility.</p>
+            <p class="mb-4 hidden long-desc">Holden has 6+ years of experience in fintech front-end development, blending design and code to deliver seamless user experiences. He’s passionate about modular components and design systems.</p>
+            <button class="learn-btn text-indigo-500 hover:text-indigo-700">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 2 -->
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover sm:mb-0 mb-4" src="images/team2.webp">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
+            <h3 class="text-gray-500 mb-3">Financial Analyst</h3>
+            <p class="mb-4 short-desc">Provides insights that guide investment strategies and growth.</p>
+            <p class="mb-4 hidden long-desc">Alper has worked with startups and enterprises, analyzing financial data to uncover opportunities. He believes numbers should tell a story and drive smart decisions.</p>
+            <button class="learn-btn text-indigo-500 hover:text-indigo-700">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 3 -->
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover sm:mb-0 mb-4" src="images/team3.webp">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
+            <h3 class="text-gray-500 mb-3">QA Engineer</h3>
+            <p class="mb-4 short-desc">Ensures product quality through rigorous testing and automation.</p>
+            <p class="mb-4 hidden long-desc">Atticus has built automated test suites that reduce bugs and improve release cycles. He’s committed to delivering reliable financial software that clients can trust.</p>
+            <button class="learn-btn text-indigo-500 hover:text-indigo-700">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 4 -->
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover sm:mb-0 mb-4" src="images/team4.jpg">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
+            <h3 class="text-gray-500 mb-3">CTO</h3>
+            <p class="mb-4 short-desc">Leads the technology vision and oversees product architecture.</p>
+            <p class="mb-4 hidden long-desc">Henry has a background in scalable systems and cloud infrastructure. He drives innovation and ensures the team adopts cutting-edge technologies responsibly in the finance sector.</p>
+            <button class="learn-btn text-indigo-500 hover:text-indigo-700">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 5 -->
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover sm:mb-0 mb-4" src="images/team5.avif">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Martin Eden</h2>
+            <h3 class="text-gray-500 mb-3">Software Engineer</h3>
+            <p class="mb-4 short-desc">Builds secure and scalable financial applications.</p>
+            <p class="mb-4 hidden long-desc">Martin specializes in backend systems and APIs for fintech platforms. His work ensures transactions are fast, secure, and reliable for clients worldwide.</p>
+            <button class="learn-btn text-indigo-500 hover:text-indigo-700">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 6 -->
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover sm:mb-0 mb-4" src="images/team6.avif">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Boris Kitua</h2>
+            <h3 class="text-gray-500 mb-3">UX Researcher</h3>
+            <p class="mb-4 short-desc">Focuses on user behavior to improve financial product usability.</p>
+            <p class="mb-4 hidden long-desc">Boris conducts research and usability testing to ensure products meet client needs. His insights help shape user-friendly financial tools that build trust and engagement.</p>
+            <button class="learn-btn text-indigo-500 hover:text-indigo-700">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<footer class="text-white body-font bg-blue-900 border-t border-gray-200">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4 ml-5">
+        <!-- Company -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Company
+          </h2>
+          <nav class="list-none mb-10">
+            <li><a class="text-gray-300 hover:text-white">About Us</a></li>
+            <li><a class="text-gray-300 hover:text-white">Our Team</a></li>
+            <li><a class="text-gray-300 hover:text-white">Careers</a></li>
+            <li><a class="text-gray-300 hover:text-white">Contact</a></li>
+          </nav>
+        </div>
+
+        <!-- Services -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Services
+          </h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-300 hover:text-white">Wealth Management</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-white">Retirement Planning</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-white">Business Advisory</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-white">Risk & Insurance</a>
+            </li>
+          </nav>
+        </div>
+
+        <!-- Resources -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Resources
+          </h2>
+          <nav class="list-none mb-10">
+            <li><a class="text-gray-300 hover:text-white">Insights</a></li>
+            <li><a class="text-gray-300 hover:text-white">Blog</a></li>
+            <li><a class="text-gray-300 hover:text-white">FAQs</a></li>
+            <li><a class="text-gray-300 hover:text-white">Support</a></li>
+          </nav>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Stay Updated
+          </h2>
+          <p class="text-gray-300 mb-4">
+            Subscribe to our newsletter for the latest financial insights.
+          </p>
+          <div class="flex">
+            <input
+              type="email"
+              placeholder="Your email"
+              class="w-full bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+            <button
+              class="ml-2 px-4 py-2 bg-white text-blue-900 rounded hover:bg-gray-200 transition-all"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="bg-blue-800">
+      <div
+        class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+      >
+        <p class="text-gray-300 text-sm text-center sm:text-left">
+          © 2026 FinTrust Capital — All Rights Reserved
+        </p>
+        <span
+          class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-300 text-sm"
+        >
+          Empowering financial growth with trust and innovation
+        </span>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
+        >
+          <a class="text-gray-300 hover:text-white">
+            <!-- Facebook -->
+            <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-300 hover:text-white">
+            <!-- Twitter -->
+            <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53..."></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-300 hover:text-white">
+            <!-- Instagram -->
+            <svg
+              fill="none"
+              stroke="currentColor"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8..."></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-300 hover:text-white">
+            <!-- LinkedIn -->
+            <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7..."></path>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
