@@ -7,93 +7,45 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="min-h-screen bg-gray-100">
-    <header
-      class="shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50 bg-white"
-    >
-      <div class="flex items-center justify-between w-full">
-        <!-- Logo (always visible) -->
-        <a href="index.html">
-          <img
-            src="images/Fintrust capital.png"
-            alt="FinTrust Capital"
-            class="w-20 h-20"
-          />
-        </a>
+ 
 
-        <!-- Hamburger button (mobile only) -->
-        <button
-          id="menu-toggle"
-          class="lg:hidden text-gray-900 text-2xl focus:outline-none"
-        >
-          ☰
-        </button>
+<header class="shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50 bg-white">
+  <div class="flex items-center justify-between w-full">
+    <!-- Logo (always visible) -->
+    <a href="index.html">
+      <img src="images/Fintrust capital.png" alt="FinTrust Capital" class="w-20 h-20" />
+    </a>
 
-        <!-- Navigation + Buttons -->
-        <div
-          id="collapseMenu"
-          class="hidden lg:flex flex-col lg:flex-row lg:items-center lg:gap-x-6 absolute lg:static top-full left-0 w-full lg:w-auto bg-white shadow-md lg:shadow-none p-4 lg:p-0"
-        >
-          <ul class="flex flex-col lg:flex-row gap-4 lg:gap-x-6">
-            <li>
-              <a
-                href="index.html"
-                class="hover:text-blue-900 text-black font-medium"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="services.html"
-                class="hover:text-blue-900 text-black font-medium"
-                >Services</a
-              >
-            </li>
-            <li>
-              <a
-                href="team.html"
-                class="hover:text-blue-900 text-black font-medium"
-                >Team</a
-              >
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                class="hover:text-blue-900 text-black font-medium"
-                >Insights</a
-              >
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                class="hover:text-blue-900 text-black font-medium"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                class="hover:text-blue-900 text-black font-medium"
-                >Contact</a
-              >
-            </li>
-          </ul>
+    <!-- Hamburger (mobile only) -->
+    <label for="menu-toggle" class="lg:hidden text-gray-900 text-2xl cursor-pointer">
+      ☰
+    </label>
+    <input type="checkbox" id="menu-toggle" class="hidden peer" />
+  </div>
 
-          <!-- Buttons inside dropdown on mobile -->
-          <div class="flex flex-col lg:flex-row gap-3 lg:gap-4 mt-4 lg:mt-0">
-            <button
-              class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-gray-900 border border-gray-400 bg-transparent hover:bg-blue-900 hover:text-white transition-all"
-            >
-              Login
-            </button>
-            <button
-              class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-white border border-black bg-blue-900 hover:bg-black transition-all"
-            >
-              Sign up
-            </button>
-          </div>
-        </div>
-      </div>
-    </header>
+  <!-- Dropdown menu -->
+  <div class="hidden peer-checked:block lg:flex flex-col lg:flex-row lg:items-center lg:gap-x-6 w-full bg-white lg:bg-transparent shadow-md lg:shadow-none">
+    <ul class="flex flex-col lg:flex-row gap-4 lg:gap-x-6 p-4 lg:p-0">
+      <li><a href="index.html" class="hover:text-blue-900 text-black font-medium">Home</a></li>
+      <li><a href="services.html" class="hover:text-blue-900 text-black font-medium">Services</a></li>
+      <li><a href="team.html" class="hover:text-blue-900 text-black font-medium">Team</a></li>
+      <li><a href="javascript:void(0)" class="hover:text-blue-900 text-black font-medium">Insights</a></li>
+      <li><a href="javascript:void(0)" class="hover:text-blue-900 text-black font-medium">About</a></li>
+      <li><a href="javascript:void(0)" class="hover:text-blue-900 text-black font-medium">Contact</a></li>
+    </ul>
+
+    <!-- Buttons -->
+    <div class="flex flex-col lg:flex-row gap-3 lg:gap-4 p-4 lg:p-0">
+      <button class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-gray-900 border border-gray-400 bg-transparent hover:bg-blue-900 hover:text-white transition-all">
+        Login
+      </button>
+      <button class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-white border border-black bg-blue-900 hover:bg-black transition-all">
+        Sign up
+      </button>
+    </div>
+  </div>
+</header>
+
 
     <!-- Hero Section -->
     <section class="text-gray-900 body-font bg-gray-50">
