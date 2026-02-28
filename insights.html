@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imsights page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      class="flex shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50"
+    >
+      <div class="flex flex-wrap items-center justify-between gap-5 w-full">
+        <!-- Logo -->
+        <a href="index.html" class="max-sm:hidden">
+          <img
+            src="images/Fintrust capital.png"
+            alt="FinTrust Capital"
+            class="w-16 h-16"
+          />
+        </a>
+        <a href="javascript:void(0)" class="hidden max-sm:block">
+          <img src="images/logo.jpg" alt="FinTrust Capital" class="w-9" />
+        </a>
+
+        <!-- Hamburger button (visible on mobile) -->
+        <button
+          id="menu-toggle"
+          class="lg:hidden text-gray-900 focus:outline-none"
+        >
+          ☰
+        </button>
+
+        <!-- Navigation bar -->
+        <div id="collapseMenu" class="hidden w-full lg:flex lg:w-auto">
+          <ul class="flex flex-col lg:flex-row gap-4 lg:gap-x-6 mt-4 lg:mt-0">
+            <li>
+              <a
+                href="index.html"
+                class="hover:text-blue-900 text-black font-medium"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="services.html"
+                class="hover:text-blue-900 text-black font-medium"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="team.html"
+                class="hover:text-blue-900 text-black font-medium"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a
+                href="insights.html"
+                class="hover:text-blue-900 text-black font-medium"
+                >Insights</a
+              >
+            </li>
+            <li>
+              <a
+                href="javascript:void(0)"
+                class="hover:text-blue-900 text-black font-medium"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="javascript:void(0)"
+                class="hover:text-blue-900 text-black font-medium"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex space-x-4">
+          <button
+            class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-gray-900 border border-gray-400 bg-transparent hover:bg-blue-900 hover:text-white transition-all"
+          >
+            Login
+          </button>
+          <button
+            class="px-4 py-2 text-sm rounded-full font-medium cursor-pointer tracking-wide text-white border border-black bg-blue-900 hover:bg-black transition-all"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
