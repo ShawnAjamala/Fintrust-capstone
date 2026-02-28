@@ -9,8 +9,9 @@
   <body class="min-h-screen bg-gray-100">
     <!-- Header -->
     <header
-      class="flex shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50">
-      <div class="flex flex-wrap items-center justify-between gap-5 w-full ">
+      class="flex shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50"
+    >
+      <div class="flex flex-wrap items-center justify-between gap-5 w-full">
         <!-- Logo -->
         <a href="index.html" class="max-sm:hidden">
           <img
@@ -23,9 +24,17 @@
           <img src="images/logo.jpg" alt="FinTrust Capital" class="w-9" />
         </a>
 
+        <!-- Hamburger button (visible on mobile) -->
+        <button
+          id="menu-toggle"
+          class="lg:hidden text-gray-900 focus:outline-none"
+        >
+          ☰
+        </button>
+
         <!-- Navigation bar -->
-        <div id="collapseMenu" class="max-lg:hidden lg:block">
-          <ul class="lg:flex gap-x-6">
+        <div id="collapseMenu" class="hidden w-full lg:flex lg:w-auto">
+          <ul class="flex flex-col lg:flex-row gap-4 lg:gap-x-6 mt-4 lg:mt-0">
             <li>
               <a
                 href="index.html"
@@ -86,6 +95,7 @@
         </div>
       </div>
     </header>
+
     <!-- Hero Section -->
     <section class="text-gray-900 body-font bg-gray-50">
       <div
