@@ -7,7 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header
+ <!--  Header-->
+  <header
       class="flex shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50"
     >
       <div class="flex flex-wrap items-center justify-between gap-5 w-full">
@@ -23,17 +24,9 @@
           <img src="images/logo.jpg" alt="FinTrust Capital" class="w-9" />
         </a>
 
-        <!-- Hamburger button (visible on mobile) -->
-        <button
-          id="menu-toggle"
-          class="lg:hidden text-gray-900 focus:outline-none"
-        >
-          ☰
-        </button>
-
         <!-- Navigation bar -->
-        <div id="collapseMenu" class="hidden w-full lg:flex lg:w-auto">
-          <ul class="flex flex-col lg:flex-row gap-4 lg:gap-x-6 mt-4 lg:mt-0">
+        <div id="collapseMenu" class="max-lg:hidden lg:block">
+          <ul class="lg:flex gap-x-6">
             <li>
               <a
                 href="index.html"
@@ -57,7 +50,7 @@
             </li>
             <li>
               <a
-                href="insights.html"
+                href="javascript:void(0)"
                 class="hover:text-blue-900 text-black font-medium"
                 >Insights</a
               >
@@ -94,5 +87,8 @@
         </div>
       </div>
     </header>
+
+
+  
   </body>
 </html>
