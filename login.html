@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Insights page</title>
+    <title>Login page</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -145,257 +145,72 @@
     </header>
     <!-- Padding so content isn't hidden behind fixed header -->
     <div class="pt-[80px]"></div>
-    <section class="bg-white py-16 text-center">
-      <h1 class="text-4xl font-bold text-blue-900">Insights</h1>
-      <p class="mt-4 text-black max-w-2xl mx-auto font-medium">
-        Stay ahead with expert analysis, market updates, and practical guides
-        from FinTrust Capital.
+    <form
+      action="#"
+      class="mx-auto max-w-md space-y-4 rounded-lg border border-gray-300 bg-gray-100 p-6"
+    >
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4 text-center">
+        Login to FinTrust Capital
+      </h2>
+
+      <!-- Email -->
+      <div>
+        <label class="block text-sm font-medium text-gray-900" for="email"
+          >Email</label
+        >
+        <input
+          class="mt-1 w-full rounded-lg border-gray-300 focus:border-blue-900 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 py-2 px-3"
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+
+      <!-- Password -->
+      <div>
+        <label class="block text-sm font-medium text-gray-900" for="password"
+          >Password</label
+        >
+        <input
+          class="mt-1 w-full rounded-lg border-gray-300 focus:border-blue-900 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 py-2 px-3"
+          id="password"
+          type="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <!-- Remember Me & Forgot Password -->
+      <div class="flex items-center justify-between">
+        <label class="flex items-center text-sm text-gray-600">
+          <input
+            type="checkbox"
+            class="h-4 w-4 text-blue-900 border-gray-300 rounded focus:ring-blue-200"
+          />
+          <span class="ml-2">Remember me</span>
+        </label>
+        <a href="#" class="text-sm text-blue-900 hover:underline"
+          >Forgot Password?</a
+        >
+      </div>
+
+      <!-- Login Button -->
+      <button
+        class="block w-full rounded-lg border border-blue-900 bg-blue-900 px-12 py-3 text-sm font-medium text-white transition-colors hover:bg-black hover:text-white"
+        type="submit"
+      >
+        Login
+      </button>
+
+      <!-- Sign Up Link -->
+      <p class="text-sm text-gray-600 mt-4 text-center">
+        Don’t have an account?
+        <a href="#" class="text-blue-900 hover:underline">Sign Up</a>
       </p>
-    </section>
-    <section class="text-gray-600 body-font overflow-hidden">
-      <div class="container px-5">
-        <div class="flex flex-wrap -m-8">
-          <!-- Insight 1 -->
-          <div class="p-12 md:w-1/2 flex flex-col items-start">
-            <span
-              class="inline-block py-1 px-2 rounded bg-indigo-50 text-blue-900 text-xs font-medium tracking-widest"
-            >
-              MARKET ANALYSIS
-            </span>
-            <h2
-              class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4"
-            >
-              Kenya’s Evolving Investment Landscape
-            </h2>
-            <p class="leading-relaxed mb-8">
-              With rising interest in treasury bills and government bonds,
-              investors are seeking safe yet profitable opportunities. FinTrust
-              Capital explores how shifting monetary policies and digital
-              platforms are reshaping investment strategies in Kenya.
-            </p>
-            <a class="text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M5 12h14"></path>
-                <path d="M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-
-          <!-- Insight 2 -->
-          <div class="p-12 md:w-1/2 flex flex-col items-start">
-            <span
-              class="inline-block py-1 px-2 rounded bg-indigo-50 text-blue-900 text-xs font-medium tracking-widest"
-            >
-              FINTECH INSIGHTS
-            </span>
-            <h2
-              class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4"
-            >
-              Digital Finance and SME Growth
-            </h2>
-            <p class="leading-relaxed mb-8">
-              Small and medium enterprises are increasingly adopting fintech
-              solutions for payments, lending, and cash flow management.
-              FinTrust Capital highlights how digital finance tools are
-              unlocking growth opportunities and financial inclusion across East
-              Africa.
-            </p>
-            <a class="text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M5 12h14"></path>
-                <path d="M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex flex-wrap w-full text-center">
-          <div class="p-4 sm:w-1/4 w-1/2">
-            <h2
-              class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
-            >
-              2.7K
-            </h2>
-            <p class="leading-relaxed">Investors Empowered</p>
-          </div>
-          <div class="p-4 sm:w-1/4 w-1/2">
-            <h2
-              class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
-            >
-              1.8K
-            </h2>
-            <p class="leading-relaxed">Market Reports Published</p>
-          </div>
-          <div class="p-4 sm:w-1/4 w-1/2">
-            <h2
-              class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
-            >
-              35
-            </h2>
-            <p class="leading-relaxed">Case Studies Shared</p>
-          </div>
-          <div class="p-4 sm:w-1/4 w-1/2">
-            <h2
-              class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
-            >
-              4
-            </h2>
-            <p class="leading-relaxed">Financial Products Offered</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="text-black body-font mt-0">
-      <div class="container px-5 py-24 mx-auto mt-0">
-        <!-- Intro -->
-        <div class="flex flex-col text-center w-full mb-20">
-          <h2
-            class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1"
-          >
-            FINTRUST CAPITAL INSIGHTS
-          </h2>
-          <h1
-            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900"
-          >
-            Expert Analysis & Market Perspectives
-          </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Stay ahead with our latest insights on investment strategies,
-            fintech innovation, and risk management. FinTrust Capital provides
-            thought leadership to help clients make smarter financial decisions.
-          </p>
-        </div>
-
-        <!-- Insight Cards -->
-        <div class="flex flex-wrap">
-          <div
-            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
-          >
-            <h2
-              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
-            >
-              Kenya’s Investment Landscape
-            </h2>
-            <p class="leading-relaxed text-base mb-4">
-              An overview of how treasury bills, bonds, and equities are
-              evolving in Kenya’s dynamic financial markets.
-            </p>
-            <a class="text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-
-          <div
-            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
-          >
-            <h2
-              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
-            >
-              Fintech & SME Growth
-            </h2>
-            <p class="leading-relaxed text-base mb-4">
-              How digital finance solutions are unlocking opportunities for
-              small and medium enterprises across East Africa.
-            </p>
-            <a class="text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-
-          <div
-            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
-          >
-            <h2
-              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
-            >
-              Risk Management Strategies
-            </h2>
-            <p class="leading-relaxed text-base mb-4">
-              Practical approaches to mitigating inflationary pressures,
-              currency risks, and market volatility in 2026.
-            </p>
-            <a class="text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-
-          <div
-            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
-          >
-            <h2
-              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
-            >
-              The Future of Digital Banking
-            </h2>
-            <p class="leading-relaxed text-base mb-4">
-              Exploring how mobile money and digital banking adoption are
-              reshaping customer expectations and investment opportunities.
-            </p>
-            <a class="text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    </form>
   </body>
+
   <footer class="text-white body-font bg-blue-900 border-t border-gray-200">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4 ml-5">

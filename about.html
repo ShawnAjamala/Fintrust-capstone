@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Fixed Header -->
+    <header
+      class="fixed top-0 left-0 w-full shadow-md py-4 px-4 sm:px-10 min-h-[70px] tracking-wide z-50 bg-white"
+    >
+      <div class="flex items-center justify-between w-full">
+        <!-- Logo -->
+        <a href="index.html" class="max-sm:hidden">
+          <img
+            src="images/Fintrust capital.png"
+            alt="FinTrust Capital"
+            class="w-16 h-16"
+          />
+        </a>
+        <a href="javascript:void(0)" class="sm:hidden">
+          <img src="images/logo.jpg" alt="FinTrust Capital" class="w-9" />
+        </a>
+
+        <!-- Right side: Menu + Buttons -->
+        <div class="flex items-center space-x-4 ml-auto">
+          <!-- Mobile Dropdown -->
+          <details class="lg:hidden">
+            <summary class="cursor-pointer text-gray-900 font-medium text-lg">
+              ☰ Menu
+            </summary>
+            <nav class="mt-2 bg-gray-100 rounded-md p-3">
+              <ul class="flex flex-col gap-3">
+                <li>
+                  <a
+                    href="index.html"
+                    class="hover:text-blue-900 text-black font-medium"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services.html"
+                    class="hover:text-blue-900 text-black font-medium"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="team.html"
+                    class="hover:text-blue-900 text-black font-medium"
+                    >Team</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="insights.html"
+                    class="hover:text-blue-900 text-black font-medium"
+                    >Insights</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="about.html"
+                    class="hover:text-blue-900 text-black font-medium"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contact.html"
+                    class="hover:text-blue-900 text-black font-medium"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </details>
+
+          <!-- Desktop Navigation -->
+          <nav class="hidden lg:block">
+            <ul class="flex gap-x-6">
+              <li>
+                <a
+                  href="index.html"
+                  class="hover:text-blue-900 text-black font-medium"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html"
+                  class="hover:text-blue-900 text-black font-medium"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="team.html"
+                  class="hover:text-blue-900 text-black font-medium"
+                  >Team</a
+                >
+              </li>
+              <li>
+                <a
+                  href="insights.html"
+                  class="hover:text-blue-900 text-black font-medium"
+                  >Insights</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  class="hover:text-blue-900 text-black font-medium"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="hover:text-blue-900 text-black font-medium"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Buttons -->
+          <div class="flex space-x-2">
+            <button
+              class="px-3 py-1 text-sm rounded-full font-medium cursor-pointer tracking-wide text-gray-900 border border-gray-400 bg-transparent hover:bg-blue-900 hover:text-white transition-all"
+            >
+              <a href="login.html">Login</a>
+            </button>
+            <button
+              class="px-3 py-1 text-sm rounded-full font-medium cursor-pointer tracking-wide text-white border border-black bg-blue-900 hover:bg-black transition-all"
+            >
+              <a href="sign.html">Sign up</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Padding so content isn't hidden behind fixed header -->
+    <div class="pt-[80px]"></div>
+    <section>
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1
+            class="sm:text-3xl text-2xl font-bold title-font mb-4 text-blue-900"
+          >
+            About FinTrust Capital
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            At FinTrust Capital, we are committed to empowering individuals,
+            businesses, and institutions with innovative financial solutions.
+            Our mission is to build trust through transparency, expertise, and
+            personalized service — helping our clients achieve sustainable
+            growth and long-term success.
+          </p>
+        </div>
+        <div class="flex flex-wrap -m-4 ml-6">
+          <!-- Vision -->
+          <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+            <div
+              class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-900 mb-5 flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-10 h-10"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 2l9 4.5-9 4.5-9-4.5L12 2z"></path>
+                <path d="M12 13.5l9-4.5v9l-9 4.5-9-4.5v-9l9 4.5z"></path>
+              </svg>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                Our Vision
+              </h2>
+              <p class="leading-relaxed text-base">
+                To be the most trusted financial partner in Kenya and beyond,
+                delivering solutions that inspire confidence and drive
+                prosperity.
+              </p>
+            </div>
+          </div>
+          <!-- Mission -->
+          <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+            <div
+              class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-900 mb-5 flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-10 h-10"
+                viewBox="0 0 24 24"
+              >
+                <path d="M9 19V6h13M9 12h8"></path>
+              </svg>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                Our Mission
+              </h2>
+              <p class="leading-relaxed text-base">
+                To provide innovative, secure, and customer-focused financial
+                services that empower communities and businesses to thrive.
+              </p>
+            </div>
+          </div>
+          <!-- Values -->
+          <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+            <div
+              class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-900 mb-5 flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-10 h-10"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 21V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v14"></path>
+                <path d="M16 3h-4a2 2 0 0 0-2 2v2h8V5a2 2 0 0 0-2-2z"></path>
+              </svg>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                Our Values
+              </h2>
+              <p class="leading-relaxed text-base">
+                Integrity, transparency, and innovation guide everything we do.
+                We believe in building lasting relationships founded on trust
+                and excellence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-black body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1
+            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900"
+          >
+            Blogs & Updates
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Stay informed with the latest financial insights, market trends, and
+            company updates from FinTrust Capital.
+          </p>
+        </div>
+        <div class="flex flex-wrap -m-12">
+          <!-- Blog Post 1 -->
+          <div class="p-12 md:w-1/2 flex flex-col items-start">
+            <span
+              class="inline-block py-1 px-2 rounded bg-blue-50 text-blue-900 text-xs font-bold tracking-widest"
+              >MARKET INSIGHTS</span
+            >
+            <h2
+              class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4"
+            >
+              Navigating Kenya’s Evolving Financial Landscape
+            </h2>
+            <p class="leading-relaxed mb-8">
+              Discover how FinTrust Capital is helping businesses and
+              individuals adapt to changing market conditions with innovative
+              financial solutions and expert guidance.
+            </p>
+            <div
+              class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full"
+            >
+              <a class="text-blue-900 inline-flex items-center"
+                >Read More
+                <svg
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <a class="inline-flex items-center">
+              <img
+                alt="blog"
+                src="images/team1.avif"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+              />
+              <span class="flex-grow flex flex-col pl-4">
+                <span class="title-font font-medium text-gray-900"
+                  >Holden Caulfield</span
+                >
+                <span class="text-gray-400 text-xs tracking-widest mt-0.5"
+                  >Financial Analyst</span
+                >
+              </span>
+            </a>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div class="p-12 md:w-1/2 flex flex-col items-start">
+            <span
+              class="inline-block py-1 px-2 rounded bg-blue-50 text-blue-900 text-xs font-medium tracking-widest"
+              >CLIENT SUCCESS</span
+            >
+            <h2
+              class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4"
+            >
+              Empowering SMEs Through Smart Financing
+            </h2>
+            <p class="leading-relaxed mb-8">
+              Learn how our tailored financial strategies are enabling small and
+              medium enterprises to grow sustainably and achieve long-term
+              success.
+            </p>
+            <div
+              class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full"
+            >
+              <a class="text-blue-900 inline-flex items-center"
+                >Read More
+                <svg
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <a class="inline-flex items-center">
+              <img
+                alt="blog"
+                src="images/client 2.webp"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+              />
+              <span class="flex-grow flex flex-col pl-4">
+                <span class="title-font font-medium text-gray-900"
+                  >David Otieno</span
+                >
+                <span class="text-gray-400 text-xs tracking-widest mt-0.5"
+                  >Business Consultant</span
+                >
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-black body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1
+            class="sm:text-3xl text-2xl font-bold title-font mb-4 text-blue-900"
+          >
+            What Our Clients Say
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            At FinTrust Capital, we measure success by the trust and
+            satisfaction of our clients. Here’s what some of them have to say
+            about working with us.
+          </p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <!-- Testimonial 1 -->
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="images/client1.jpg"
+              />
+              <p class="leading-relaxed">
+                “FinTrust Capital helped us streamline our investment strategy
+                with clarity and confidence. Their team is professional,
+                transparent, and always available to guide us.”
+              </p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-blue-900 mt-6 mb-4"
+              ></span>
+              <h2
+                class="text-gray-900 font-medium title-font tracking-wider text-sm"
+              >
+                Jane Mwangi
+              </h2>
+              <p class="text-gray-500">Entrepreneur</p>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="client"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="images/client 2.webp"
+              />
+              <p class="leading-relaxed">
+                “Working with FinTrust Capital gave us the financial insights we
+                needed to expand our business. Their expertise in risk
+                management is unmatched.”
+              </p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-blue-900 mt-6 mb-4"
+              ></span>
+              <h2
+                class="text-gray-900 font-medium title-font tracking-wider text-sm"
+              >
+                David Otieno
+              </h2>
+              <p class="text-gray-500">SME Owner</p>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="lg:w-1/3 lg:mb-0 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="images/client3.avif"
+              />
+              <p class="leading-relaxed">
+                “FinTrust Capital has been a reliable partner in managing my
+                personal finances. Their tailored solutions gave me peace of
+                mind and long-term stability.”
+              </p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-blue-900 mt-6 mb-4"
+              ></span>
+              <h2
+                class="text-gray-900 font-medium title-font tracking-wider text-sm"
+              >
+                Sarah Njeri
+              </h2>
+              <p class="text-gray-500">Private Investor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <footer class="text-white body-font bg-blue-900 border-t border-gray-200">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4 ml-5">
+        <!-- Company -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Company
+          </h2>
+          <nav class="list-none mb-10">
+            <li><a class="text-gray-300 hover:text-white">About Us</a></li>
+            <li><a class="text-gray-300 hover:text-white">Our Team</a></li>
+            <li><a class="text-gray-300 hover:text-white">Careers</a></li>
+            <li><a class="text-gray-300 hover:text-white">Contact</a></li>
+          </nav>
+        </div>
+
+        <!-- Services -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Services
+          </h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-300 hover:text-white">Wealth Management</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-white">Retirement Planning</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-white">Business Advisory</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-white">Risk & Insurance</a>
+            </li>
+          </nav>
+        </div>
+
+        <!-- Resources -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Resources
+          </h2>
+          <nav class="list-none mb-10">
+            <li><a class="text-gray-300 hover:text-white">Insights</a></li>
+            <li><a class="text-gray-300 hover:text-white">Blog</a></li>
+            <li><a class="text-gray-300 hover:text-white">FAQs</a></li>
+            <li><a class="text-gray-300 hover:text-white">Support</a></li>
+          </nav>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Stay Updated
+          </h2>
+          <p class="text-gray-300 mb-4">
+            Subscribe to our newsletter for the latest financial insights.
+          </p>
+          <div class="flex">
+            <input
+              type="email"
+              placeholder="Your email"
+              class="w-full bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+            <button
+              class="ml-2 px-4 py-2 bg-white text-blue-900 rounded hover:bg-gray-200 transition-all"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="bg-blue-800">
+      <div
+        class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+      >
+        <p class="text-gray-300 text-sm text-center sm:text-left">
+          © 2026 FinTrust Capital — All Rights Reserved
+        </p>
+        <span
+          class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-300 text-sm"
+        >
+          Empowering financial growth with trust and innovation
+        </span>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
+        >
+          <a class="text-gray-300 hover:text-white">
+            <!-- Facebook -->
+            <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-300 hover:text-white">
+            <!-- Twitter -->
+            <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53..."></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-300 hover:text-white">
+            <!-- Instagram -->
+            <svg
+              fill="none"
+              stroke="currentColor"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8..."></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-300 hover:text-white">
+            <!-- LinkedIn -->
+            <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7..."></path>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</html>
