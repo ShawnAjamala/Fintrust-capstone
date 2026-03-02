@@ -2,8 +2,11 @@
 
 A responsive finance website for **FinTrust Capital**, built entirely with **pure HTML** and **Tailwind CSS**.  
 This project showcases a professional design with clear navigation and dedicated pages for services, insights, and client engagement.
+The project helps in solving the issue of assisting kenyans who face challanges in aquiring financial assistance countrywide.
+--
 
----
+**Contributor**
+Shawn Ajamala
 
 ## Project Structure
 
@@ -55,3 +58,5 @@ The site consists of the following pages:
 
 - **Insights Blog**  
   Articles and updates to build credibility and thought leadership.
+
+- **Screenshots of the Project**
