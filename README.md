@@ -4,8 +4,8 @@ A responsive finance website for **FinTrust Capital**, built entirely with **pur
 
 This project showcases a professional design with clear navigation and dedicated pages for services, insights, and client engagement.
 
-The project helps in solving the issue of assisting kenyans who face challanges in aquiring financial assistance countrywide.
---
+The projects assists all kenyans access easy financial services without strain of financial illiteracy.
+
 
 **Contributor**
 Shawn Ajamala
@@ -61,3 +61,6 @@ The site consists of the following pages:
 - **Insights Blog**  
   Articles and updates to build credibility and thought leadership.
 
+**Access Links**
+Live url:https://shawnajamala.github.io/Fintrust-capstone/
+Github repository:https://github.com/ShawnAjamala/Fintrust-capstone
