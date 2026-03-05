@@ -61,6 +61,8 @@ The site consists of the following pages:
 - **Insights Blog**  
   Articles and updates to build credibility and thought leadership.
 
-**Access Links**
-Live url:https://shawnajamala.github.io/Fintrust-capstone/
-Github repository:https://github.com/ShawnAjamala/Fintrust-capstone
+-**Access Links**
+-Live url:https://shawnajamala.github.io/Fintrust-capstone/
+
+
+-Github repository:https://github.com/ShawnAjamala/Fintrust-capstone
